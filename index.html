@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Connections</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section>
+        <div class="page">
+            <div class="earpiece"></div>
+            <div class="bar">
+                <div class="time">12:00</div>
+                <div class="connections">
+                <div class="bluetooth">
+                <i class='bx bx-bluetooth'></i>
+                </div>
+                <div class="hotspot">
+                    <i class='bx bx-podcast'></i>
+                    </div>
+                <div class="wifi">
+                <i class='bx bx-wifi'></i>
+                </div>
+                <div class="data">
+                <i class='bx bx-signal-5'></i>
+                </div>
+                <div class="battery">
+                <i class='bx bxs-battery-low'></i>
+                </div>
+                </div>
+            </div>
+            <h3>Connections</h3>
+            <div class="content" onclick="bluetooth()">
+                <div class="B name">Bluetooth</div><div class="B switch">
+                    <div class="B toggle"></div></div>
+                </div>
+            <div class="content" onclick="hotspot()">
+                <div class="H name">Hotspot</div><div class="H switch">
+                    <div class="H toggle"></div>
+                </div>
+            </div>
+            <div class="content" onclick="wifi()">
+                <div class="W name">Wifi</div><div class="W switch">
+                    <div class="W toggle"></div>
+                </div>
+            </div>
+            <div class="content" onclick="data()">
+                <div class="D name">Mobile data</div><div class="D switch">
+                    <div class="D toggle"></div>
+                </div>
+            </div>
+            <!-- <div onclick="mode()" class="modeContainer">
+          <div class="mode switch" >
+            <div class=" M toggle"></div>
+          </div>
+            </div> -->
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
